@@ -1,0 +1,591 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.aboutsection1 .navleft img {
+    padding-left: 80px;
+    width: 13%;
+    float: left;
+
+}
+
+.aboutsection1 .navbar {
+    background-color: rgb(243, 242, 242);
+    width: 100%;
+    position: fixed;
+    padding-top: 15px;
+}
+
+.aboutsection1 .navright li {
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    float: right;
+    padding-right: 30px;
+    font-weight: 50;
+
+}
+
+.aboutsection1 .navright ul {
+    list-style: none;
+}
+
+.aboutsection1 .navright {
+    padding-right: 50px;
+}
+
+.aboutsection1 .navright li:hover {
+    color: rgb(241, 187, 168);
+}
+
+.clr {
+    clear: both;
+}
+
+
+.aboutposition1 {
+    width: 40px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.fexd1 {
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(56, 53, 53);
+    transition: 1s;
+}
+
+.aboutposition1 a :hover {
+    color: green;
+    transition: 1s;
+}
+
+
+.aboutposition2 {
+    background-color: rgb(138, 108, 71);
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    border: 1px solid rgb(138, 108, 71);
+    border-radius: 5px;
+    margin-right: -2px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fexd2 {
+    padding: 10px 0px;
+    transition: 2s;
+}
+
+.aboutposition2 a {
+    color: black;
+}
+
+.aboutposition2 a :hover {
+    color: antiquewhite;
+    transition: 2s;
+}
+
+.aboutsection2 {
+    height: 35vh;
+    background-image: url(imge/2.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    margin-bottom: 70px;
+}
+
+.aboutsection2 div {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.aboutsection2 h2 {
+    font-size: 55px;
+}
+
+.aboutsection2 p {
+    font-size: large;
+}
+
+
+.aboutsection3 {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+
+.aboutsection3 .sectionright {
+    width: 50%;
+}
+
+.aboutsection3 .sectionright img {
+    width: 92%;
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+
+.aboutsection3 .sectionleft {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 80px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.aboutsection3 .sectionleft h2 {
+    font-size: 30px;
+    color: rgb(56, 53, 53);
+    font-weight: 100;
+}
+
+.aboutsection3 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+.aboutsection4 .top {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.aboutsection4 {
+    background-color: rgb(180, 182, 182);
+    padding-bottom: 80px;
+    font-weight: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutsection4 .linecenter {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 32px;
+    font-size: 15px;
+}
+
+.aboutsection4 .center {
+    display: flex;
+    margin: 0px 15px;
+}
+
+
+.aboutsection4 .linebottom {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 32px;
+    font-size: 15px;
+}
+
+.aboutsection4 .bottom {
+    display: flex;
+    margin: 0px 15px;
+}
+
+.abouticon {
+    color: chocolate;
+    font-size: 50px;
+}
+
+.aboutsection4 h2 {
+    font-family: noe;
+    font-size: 18px;
+    font-weight: 10;
+}
+
+.top h2 {
+    font-size: 30px;
+}
+
+
+.section5 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(39, 34, 34);
+
+}
+
+.iconfooter {
+    color: bisque;
+    border: solid bisque 1px;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: rgb(56, 53, 53);
+    transition: 2s;
+
+
+}
+
+.iconsection5 {
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.icon5 {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.section5 p {
+    color: rgb(148, 142, 134);
+}
+
+.iconsection5 a :hover {
+    color: blue;
+    transition: 2s;
+}
+
+.toggle-btns {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 0px 25px;
+    z-index: 1000;
+}
+
+#closeBtn {
+    display: none;
+}
+
+@media screen and (min-width:0px) and (max-width:599px) {
+    .aboutsection1 .navbar
+    {
+        padding:0px;
+    }
+    .navbar {
+        position: relative;
+        /* height: 60px; */
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .navright {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        background-color: #f8f8f8;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 999; */
+    }
+
+    .navright.active {
+        display: flex;
+    }
+
+    .navright ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    .navright li {
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+
+    /* لو عايز تخفي الـ a وتحط اللون جوا li */
+    .navright a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    /* زر التوجل */
+    .toggle-btns {
+        display: block;
+        /* z-index: 1000; */
+        /* فوق المينيو */
+    }
+
+    #closeBtn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navleft {
+        width: 30%;
+    }
+
+    .aboutsection1 .navleft img {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+
+    .aboutsection3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+    }
+
+    .aboutsection3 .sectionright {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aboutsection3 .sectionright img {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .aboutsection3 .sectionleft {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aboutsection4 .linecenter {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 32px;
+        font-size: 15px;
+    }
+
+    .aboutsection4 .center {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 15px;
+    }
+
+
+    .aboutsection4 .linebottom {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 32px;
+        font-size: 15px;
+    }
+
+    .aboutsection4 .bottom {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 15px;
+    }
+
+
+    .section5 {
+        margin: 0px;
+        padding: 100px 0px;
+    }
+
+    .fexd1 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:767px) {
+    .aboutsection1 .navbar {
+        padding: 0;
+        margin-top: 0;
+        padding-top: 5px;
+    }
+
+    .aboutsection1 .navleft {
+        width: 25%;
+
+    }
+
+    .aboutsection1 .navleft img {
+        /* margin: 0; */
+        padding-left: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .aboutsection1 ul {
+        padding: 0;
+    }
+
+    .aboutsection1 .navright {
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        float: right;
+
+    }
+
+    .aboutsection1 .navright li {
+        /* padding: 15px; */
+        /* margin: auto; */
+        font-size: 15px;
+        /* padding-top:20px; */
+    }
+     .aboutsection3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+    }
+
+    .aboutsection3 .sectionright {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aboutsection3 .sectionright img {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .aboutsection3 .sectionleft {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .section5 {
+        margin: 0px;
+        padding: 100px 0px;
+    }
+
+    .fexd1 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .aboutsection1 .navbar {
+        padding: 0;
+        margin-top: 0;
+        /* padding-top: 5px; */
+    }
+
+    .aboutsection1 .navleft {
+        width: 25%;
+
+    }
+
+    .aboutsection1 .navleft img {
+        /* margin: 0; */
+        padding-left: 10px;
+        /* text-align: center; */
+        width: 75%;
+    }
+
+    .aboutsection1 ul {
+        padding: 0;
+    }
+
+    .aboutsection1 .navright {
+        margin: 0;
+        padding: 0;
+        width: 75%;
+        float: right;
+
+    }
+
+    .aboutsection1 .navright li {
+        /* padding: 15px; */
+        /* margin: auto; */
+        font-size: 15px;
+        /* padding-top:20px; */
+    }
+
+        .aboutsection3 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+    }
+
+    .aboutsection3 .sectionright {
+        width: 65%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aboutsection3 .sectionright img {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .aboutsection3 .sectionleft {
+        width: 35%;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 20px;
+    }
+
+    .section5 {
+        margin: 0px;
+        padding: 100px 0px;
+    }
+
+    .fexd1 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1170px) 
+{
+        .aboutsection3 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+    }
+
+    .aboutsection3 .sectionright {
+        width: 65%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aboutsection3 .sectionright img {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .aboutsection3 .sectionleft {
+        width: 35%;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 20px;
+    }
+
+}

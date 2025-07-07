@@ -1,0 +1,520 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.aboutposition1 {
+    width: 40px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.fexd1 {
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(56, 53, 53);
+    transition: 1s;
+}
+
+.aboutposition1 a :hover {
+    color: green;
+    transition: 1s;
+}
+
+
+.aboutposition2 {
+    background-color: rgb(138, 108, 71);
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    right: 0px;
+    top: 200px;
+    border: 1px solid rgb(138, 108, 71);
+    border-radius: 5px;
+    margin-right: -2px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fexd2 {
+    padding: 10px 0px;
+    transition: 2s;
+}
+
+.aboutposition2 a {
+    color: black;
+}
+
+.aboutposition2 a :hover {
+    color: antiquewhite;
+    transition: 2s;
+}
+
+
+.aboutsection1 .navleft img {
+    padding-left: 80px;
+    width: 13%;
+    float: left;
+
+}
+
+.aboutsection1 .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding-top: 30px;
+}
+
+.aboutsection1 .navright li {
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    float: right;
+    padding-right: 30px;
+    font-weight: 50;
+
+}
+
+.aboutsection1 .navright ul {
+    list-style: none;
+}
+
+.aboutsection1 .navright {
+    padding-right: 50px;
+}
+
+.aboutsection1 .navright li:hover {
+    color: rgb(241, 187, 168);
+}
+
+.clr {
+    clear: both;
+}
+
+.section2 {
+    background-color: rgb(230, 228, 228);
+    margin-top: -20px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+.section2 h2 {
+    font-size: 40px;
+    font-weight: 50;
+}
+
+.section2 p {
+    font-weight: 50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section3 {
+    margin-bottom: 50px;
+}
+
+.section3 img {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.section3 div {
+    display: flex;
+    padding: 0px 70px;
+}
+
+
+.memmber2 {
+    width: 25%;
+}
+
+.xx {
+    margin-left: -15px;
+}
+
+.iconlink {
+    text-decoration: none;
+    transition: 2s;
+    color: rgb(148, 142, 134);
+
+}
+
+.iconlink:hover {
+    color: white;
+    transition: 2s;
+}
+
+.section4 h2 {
+    font-weight: 50;
+    color: white;
+    font-size: 20px;
+    font-family: noe;
+}
+
+
+.section4 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(39, 34, 34);
+
+}
+
+.iconfooter {
+    color: bisque;
+    border: solid bisque 1px;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: rgb(56, 53, 53);
+    transition: 2s;
+
+
+}
+
+.iconsection4 {
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.iconx {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.section4 p {
+    color: rgb(148, 142, 134);
+}
+
+.iconsection4 a :hover {
+    color: blue;
+    transition: 2s;
+}
+
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section3 div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.section3 img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+/* @media (max-width: 768px) {
+    .section3 img {
+        width: 50%;
+    }
+} */
+
+/* @media (max-width: 480px) {
+    .section3 img {
+        width: 100%;
+    }
+} */
+
+.toggle-btns {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 0px 25px;
+    z-index: 1000;
+}
+
+#closeBtn {
+    display: none;
+}
+
+@media screen and (min-width:0px) and (max-width:599px) {
+    .aboutsection1 .navbar
+    {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .navbar {
+        position: relative;
+        /* height: 60px; */
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .navright {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        background-color: #f8f8f8;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 999; */
+    }
+
+    .navright.active {
+        display: flex;
+    }
+
+    .navright ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+
+    .navright li {
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+
+    /* لو عايز تخفي الـ a وتحط اللون جوا li */
+    .navright a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    /* زر التوجل */
+    .toggle-btns {
+        display: block;
+        /* z-index: 1000; */
+        /* فوق المينيو */
+    }
+
+    #closeBtn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navleft {
+        width: 30%;
+    }
+
+    .aboutsection1 .navleft img {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+
+
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 div {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .section3 div img {
+        width: 95%;
+    }
+
+
+    .section4 {
+        margin: 0px;
+        padding: 100px 0px;
+    }
+
+    .fexd1 {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width:767px) {
+    .aboutsection1 .navbar {
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .aboutsection1 .navleft img {
+        margin: 0;
+        padding-left: 10px;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .aboutsection1 ul {
+        padding: 0;
+    }
+
+    .aboutsection1 .navleft {
+        width: 30%;
+    }
+
+    .aboutsection1 .navright {
+        margin: 0;
+        padding: 0;
+        width: 65%;
+        float: right;
+    }
+
+    .aboutsection1 .navright li {
+        padding: 15px;
+        margin: auto;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .toggle-btns {
+        display: none;
+    }
+
+    .aboutsection1 .centeraboutsection1 {
+        margin: 0;
+        padding: 0;
+        margin-top: 30%;
+    }
+
+    .aboutsection1 div .memmber1 {
+        font-size: 50px;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 div {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .section3 div img {
+        width: 45%;
+    }
+
+    .section4 {
+        margin: 0px;
+        padding: 100px 0px;
+    }
+
+    .fexd1 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .aboutsection1 .navbar {
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navleft
+    {
+        width: 20%;
+    }
+
+    .aboutsection1 .navleft img {
+        margin: 0;
+        padding-left: 10px;
+        text-align: center;
+        width: 70%;
+    }
+
+
+    .aboutsection1 .navright {
+        margin: 0;
+        padding: 0;
+        width: 70%;
+    }
+
+    .aboutsection1 .navright li {
+        padding: 20px ;
+        margin: auto;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .navright ul
+    {
+        margin: 0px;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section3 div {
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 div img {
+        width: 100%;
+    }
+
+
+
+    .section4 {
+        margin: 0px;
+        padding: 100px 0px;
+    }
+
+    .fexd1 {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .section3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section3 div {
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 div img {
+        width: 100%;
+    }
+
+}
